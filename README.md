@@ -1,2 +1,1 @@
-# -google-homepage
-homepage of google
+Just creating basic layout for a google homepage.
