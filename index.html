@@ -92,7 +92,15 @@ text-decoration:none;
   height:48px;
   border-radius:40px;
   border-color: hsl(0, 10%, 85%);
+  
   border-width:1px;
+  background-image: url('search.gif'), url("mic.gif");
+  background-repeat: no-repeat;
+  background-size: 20px,50px;
+
+  background-position: 15px ,550px; 
+  padding-left:40px;
+  font-size:20px;
   
   
 }
@@ -101,6 +109,66 @@ text-decoration:none;
 
 
 }
+.bttn1{
+  position:relative;
+  width:130px;
+  height:35px;
+  left:330px;
+  top: 250px;
+  background-color: rgba(128,128,128,0.06);
+  border-width:0px;
+  border-color: hsl(0, 2%, 90%);
+  font-size:14px;
+  
+}
+.bttn1:hover{
+  border-width:1px;
+  border-color: hsl(0, 10%, 90%);
+  border-radius:6px;
+}
+.bttn1:active{
+  outline:none;
+  border-width:1px;
+  border-color:blue;
+  border-radius:6px;
+}
+.bttn1:focus{
+  outline:none;
+  border-width:1px;
+  border-color:blue;
+  border-radius:6px;
+}
+
+.bttn2{
+  position:relative;
+  width:130px;
+  height:35px;
+  left:340px;
+  top: 250px;
+  background-color: rgba(128,128,128,0.06);
+  border-width:0px;
+  border-color: hsl(0, 2%, 90%);
+  font-size:14px;
+  
+}
+.bttn2:hover{
+  border-width:1px;
+  border-color: hsl(0, 10%, 90%);
+  border-radius:6px;
+}
+.bttn2:active{
+  outline:none;
+  border-width:1px;
+  border-color:blue;
+  border-radius:6px;
+}
+.bttn2:focus{
+  outline:none;
+  border-width:1px;
+  border-color:blue;
+  border-radius:6px;
+}
+
 
 
 
@@ -119,6 +187,8 @@ text-decoration:none;
 
 <form action="#">
   <input type="text" class="searchform"></input>
+  <input type="button" value="Google Search" class="bttn1"></input>
+  <input type="button" value="I'm Feeling Lucky" class="bttn2"></input>
   
 
 
